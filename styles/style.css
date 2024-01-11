@@ -1,0 +1,60 @@
+.right{
+    display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: 100px;
+  width: 30%;
+
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5fr 1fr 1fr;
+    column-gap: 10px;
+    
+}
+img{
+    border-radius: 50%;
+}
+
+p{
+    color: aliceblue;
+}
+h2{
+    color: cyan;
+    
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    size-adjust: 70px;
+}
+
+ul li{
+    margin: 5px;
+    display: inline;
+}
+
+/* unvisited link*/
+a:link{
+    color: white;
+}
+
+/* visited link*/
+a:visited{
+    color: aliceblue;
+}
+
+/* mouse over element*/
+a:hover{
+    color: aqua;
+}
+
+/* selected link*/
+a:active{
+    color: blue;
+}
+.color{
+    color: white;
+}
